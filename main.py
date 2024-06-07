@@ -1,3 +1,8 @@
+"""
+The code implements a simple calculator with four operations(+, -, *, :)
+"""
+
+
 def summ(a, b):
     """Return the sum of numbers"""
     return a + b
@@ -20,14 +25,19 @@ def div(a, b):
 
 def calculator(num1, num2, op):
     """Return the result of expression"""
+    result = 0
     if op == "+":
-        return summ(num1, num2)
+        result = summ(num1, num2)
+        return result
     if op == "-":
-        return dif(num1, num2)
+        result = dif(num1, num2)
+        return result
     if op == "*":
-        return mul(num1, num2)
+        result = mul(num1, num2)
+        return result
     if op == ":":
-        return div(num1, num2)
+        result = div(num1, num2)
+        return result
 
 
 firstNumber = int(input("Введите первое число: "))
