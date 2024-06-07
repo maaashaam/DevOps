@@ -1,30 +1,39 @@
-def sum(a, b):
+def summ(a, b):
+    """Return the sum of numbers"""
     return a + b
 
+
 def dif(a, b):
+    """Return the difference of numbers"""
     return a - b
 
+
 def mul(a, b):
+    """Return the multiplication of numbers"""
     return a * b
 
+
 def div(a, b):
+    """Return the division of numbers"""
     return a // b
 
-def calculator(a, b, oper):
-    if oper == "+":
-        return sum(a, b)
-    if oper == "-":
-        return dif(a, b)
-    if oper == "*":
-        return mul(a, b)
-    if oper == ":":
-        return div(a, b)
+
+def calculator(num1, num2, op):
+    """Return the result of expression"""
+    if op == "+":
+        return summ(num1, num2)
+    if op == "-":
+        return dif(num1, num2)
+    if op == "*":
+        return mul(num1, num2)
+    if op == ":":
+        return div(num1, num2)
 
 
-a = int(input("Введите первое число: "))
-b = int(input("Введите второе число: "))
-oper = input("Введите оператор: ")
+firstNumber = int(input("Введите первое число: "))
+secondNumber = int(input("Введите второе число: "))
+operand = input("Введите оператор: ")
 
-ans = calculator(a, b, oper)
+answer = calculator(firstNumber, secondNumber, operand)
 
-print("Ответ: ", ans)
+print("Ответ: ", answer)
