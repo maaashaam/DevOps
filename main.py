@@ -25,19 +25,15 @@ def div(a, b):
 
 def calculator(num1, num2, op):
     """Return the result of expression"""
-    result = 0
     if op == "+":
-        result = summ(num1, num2)
-        return result
+        return summ(num1, num2)
     if op == "-":
-        result = dif(num1, num2)
-        return result
+        return dif(num1, num2)
     if op == "*":
-        result = mul(num1, num2)
-        return result
+        return mul(num1, num2)
     if op == ":":
-        result = div(num1, num2)
-        return result
+        return div(num1, num2)
+    return "Введен некорректный оператор"
 
 
 firstNumber = int(input("Введите первое число: "))
