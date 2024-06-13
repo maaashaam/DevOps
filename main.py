@@ -36,10 +36,10 @@ def calculator(num1, num2, op):
     return "Введен некорректный оператор"
 
 
-firstNumber = int(input("Введите первое число: "))
-secondNumber = int(input("Введите второе число: "))
-operand = input("Введите оператор: ")
-
-answer = calculator(firstNumber, secondNumber, operand)
-
-print("Ответ: ", answer)
+# firstNumber = int(input("Введите первое число: "))
+# secondNumber = int(input("Введите второе число: "))
+# operand = input("Введите оператор: ")
+#
+# answer = calculator(firstNumber, secondNumber, operand)
+#
+# print("Ответ: ", answer)
