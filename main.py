@@ -35,6 +35,7 @@ def calculator(num1, num2, op):
         return div(num1, num2)
     return "Введен некорректный оператор"
 
+print(calculator(5, 7, '+'))
 
 # firstNumber = int(input("Введите первое число: "))
 # secondNumber = int(input("Введите второе число: "))
