@@ -2,7 +2,6 @@
 Test function mul
 """
 
-import pytest
 from main import mul
 
 def test_pos_mul():

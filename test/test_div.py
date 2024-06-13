@@ -2,7 +2,6 @@
 Test function div
 """
 
-import pytest
 from main import div
 
 def test_pos_div():

@@ -2,7 +2,6 @@
 Test function dif
 """
 
-import pytest
 from main import dif
 
 def test_pos_dif():

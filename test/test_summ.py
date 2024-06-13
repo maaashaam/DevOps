@@ -2,7 +2,6 @@
 Test function summ
 """
 
-import pytest
 from main import summ
 
 def test_pos_sum():
